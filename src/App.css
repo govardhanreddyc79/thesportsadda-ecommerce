@@ -1,51 +1,103 @@
-.App {
-  text-align: center;
+
+@import url("https://ozone-ui.netlify.app/Docs/doc.css");
+@import url("https://the-sports-adda.netlify.app/index.css");
+@import url("https://ozone-ui.netlify.app/Components/Button/button.css"); 
+
+
+.margin-top {
+  margin: 1rem 0rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .search {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2rem;
+  border: 2px solid var(--primary-color);
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-icon {
+  color: var(--primary-color);
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #22201c;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.brand-title {
-  font-size: 3rem;
-  color: #d9d9d9;
-}
-
-.brand-title span {
-  color: #ffde59;
-}
-
-.brand-description {
-  font-size: 1.4rem;
-}
-
-.links {
-  display: flex;
-}
-
-.links a {
-  color: #d9d9d9;
-  font-size: 1.2rem;
+p {
   margin: 1rem;
 }
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.margin-left {
+  margin-left: 0;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.text-strike {
+  text-decoration: line-through;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 5px;
+  background-color: var(--bg-clr);
+  cursor: pointer;
+
+}
+.category-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap:5rem;
+}
+.cat-image {
+  width: 168px;
+  font-size: 2rem;
+  height: 117px;
+}
+.cat-item {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.home-logo {
+  width: 45rem;
+  height: 40rem;
+}
+.new-arrivals {
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  gap:2rem;
+  padding: 1rem;
+}
+.deal-image {
+  width: 180px;
+  font-size: 2rem;
+  height: 140px;
+} */
